@@ -1,4 +1,4 @@
-student_heights = input("Input a list of people heights in cm: ").split()
+student_heights = input("Input a list of people heights in cm separated by spaces: \n: ").split()
 # funkcja poniżej zamienia wszystkie wpisane wysokości na INT i określa parametr n = ilość zmiennych w liście
 for n in range(0, len(student_heights)):
   student_heights[n] = int(student_heights[n])
