@@ -12,4 +12,4 @@ for high in student_heights:
     high_total += high
 # print(high_total)
 average = high_total / number_of_students
-print(int(average))
+print(f"Average high is: {int(average)} cm")
